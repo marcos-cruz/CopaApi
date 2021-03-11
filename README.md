@@ -1,10 +1,12 @@
 # CopaFilmes
 
-Representa o projeto de backend do Campeonato de Filmes.
+Representa uma solução para um Campeonato de Filmes fictício,composto de um projeto de backend, API RESTful, escrito em dotnet core 3.1, e um projeto de front end escrito em angular 11.
 
 ## Para executar a aplicação será necessário baixar os projetos de frontend e de backend, e executar os dois projetos dentro da IDE
 
-- https://github.com/marcos-cruz/CopaApp.git
+- https://github.com/marcos-cruz/CopaApi.git - projeto de backend
+
+- https://github.com/marcos-cruz/CopaApp.git - projeto de frontend
 
 ## Instruções para executar o projeto de Backend
 
