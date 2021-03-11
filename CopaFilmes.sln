@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bigai.CopaFilmes.Api", "src\Bigai.CopaFilmes.Api\Bigai.CopaFilmes.Api.csproj", "{4E77784D-223C-4B80-99B0-AF5C0A09B85A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{A7C401ED-3525-484F-ACE9-1D6E3381184F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bigai.CopaFilmes.Domain.Core", "src\Bigai.CopaFilmes.Domain.Core\Bigai.CopaFilmes.Domain.Core.csproj", "{86521846-A98F-4AEB-9EEA-6FD7F89D9AE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{E6E7517C-5390-428F-B83A-8FAE61BA2563}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bigai.CopaFilmes.Domain.Shared", "src\Bigai.CopaFilmes.Domain.Shared\Bigai.CopaFilmes.Domain.Shared.csproj", "{654A2EB6-37A7-4E94-B848-8FA5A79A2B2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bigai.CopaFilmes.Domain.Core.Tests", "tests\Bigai.CopaFilmes.Domain.Core.Tests\Bigai.CopaFilmes.Domain.Core.Tests.csproj", "{C6B573F0-F144-436D-A3A2-C1FB65527179}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E77784D-223C-4B80-99B0-AF5C0A09B85A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E77784D-223C-4B80-99B0-AF5C0A09B85A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E77784D-223C-4B80-99B0-AF5C0A09B85A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E77784D-223C-4B80-99B0-AF5C0A09B85A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86521846-A98F-4AEB-9EEA-6FD7F89D9AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86521846-A98F-4AEB-9EEA-6FD7F89D9AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86521846-A98F-4AEB-9EEA-6FD7F89D9AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86521846-A98F-4AEB-9EEA-6FD7F89D9AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{654A2EB6-37A7-4E94-B848-8FA5A79A2B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654A2EB6-37A7-4E94-B848-8FA5A79A2B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654A2EB6-37A7-4E94-B848-8FA5A79A2B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654A2EB6-37A7-4E94-B848-8FA5A79A2B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B573F0-F144-436D-A3A2-C1FB65527179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B573F0-F144-436D-A3A2-C1FB65527179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B573F0-F144-436D-A3A2-C1FB65527179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B573F0-F144-436D-A3A2-C1FB65527179}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E77784D-223C-4B80-99B0-AF5C0A09B85A} = {E6E7517C-5390-428F-B83A-8FAE61BA2563}
+		{86521846-A98F-4AEB-9EEA-6FD7F89D9AE2} = {A7C401ED-3525-484F-ACE9-1D6E3381184F}
+		{654A2EB6-37A7-4E94-B848-8FA5A79A2B2B} = {A7C401ED-3525-484F-ACE9-1D6E3381184F}
+		{C6B573F0-F144-436D-A3A2-C1FB65527179} = {A7C401ED-3525-484F-ACE9-1D6E3381184F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78773FF7-F91B-4EF0-BB77-899FC9107FF7}
+	EndGlobalSection
+EndGlobal

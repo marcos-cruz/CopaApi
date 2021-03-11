@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bigai.CopaFilmes.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Bigai.CopaFilmes.Api.Controllers.V1.FilmesController.ObterFilmes">
+            <summary>
+            Obtém uma lista com os filmes que participam da Copa de Filmes.
+            </summary>
+        </member>
+        <member name="M:Bigai.CopaFilmes.Api.Controllers.V1.FilmesController.GerarCampeonato(Bigai.CopaFilmes.Api.Requests.FilmeRequest[])">
+            <summary>
+             Monta o chaveamento do Campeonato de Filmes.
+            </summary>
+            <param name="request">Lista contendo 8 filmes para a geração do campeonato.</param>
+        </member>
+    </members>
+</doc>
